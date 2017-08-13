@@ -13,6 +13,7 @@
 		6F2003461F40981100B51447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2003441F40981100B51447 /* Main.storyboard */; };
 		6F2003481F40981100B51447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2003471F40981100B51447 /* Assets.xcassets */; };
 		6F20034B1F40981100B51447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2003491F40981100B51447 /* LaunchScreen.storyboard */; };
+		6F2003551F40984000B51447 /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2003541F40984000B51447 /* CZPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6F2003471F40981100B51447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F20034A1F40981100B51447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F20034C1F40981100B51447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2003531F40984000B51447 /* CZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPickerView.h; sourceTree = "<group>"; };
+		6F2003541F40984000B51447 /* CZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6F20033A1F40981100B51447 /* CZPickerViewDemo */,
+				6F2003521F40984000B51447 /* CZPickerView */,
 				6F2003391F40981100B51447 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6F20033C1F40981100B51447 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F2003521F40984000B51447 /* CZPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6F2003531F40984000B51447 /* CZPickerView.h */,
+				6F2003541F40984000B51447 /* CZPickerView.m */,
+			);
+			path = CZPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				6F2003431F40981100B51447 /* ViewController.m in Sources */,
 				6F2003401F40981100B51447 /* AppDelegate.m in Sources */,
 				6F20033D1F40981100B51447 /* main.m in Sources */,
+				6F2003551F40984000B51447 /* CZPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
